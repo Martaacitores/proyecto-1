@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: purple;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: yellow;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos del mosaico de imágenes */
+.mosaico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagen {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos del formulario de contacto */
+section {
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: purple;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: pink;
+    color: purple;
+}
